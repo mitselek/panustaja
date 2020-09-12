@@ -1,23 +1,24 @@
 {
+  "private": false,
   "name": "panustaja",
-  "version": "1.0.0",
-  "description": "Entusse kataloogi laadimine",
-  "main": "panustaja.js",
-  "dependencies": {
-    "entulib": "^2.0.5"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Kataloogi laadimine Entusse",
+  "homepage": "https://github.com/mitselek/panustaja",
+  "author": "Mihkel Putrinš <mihkel.putrinsh@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mitselek/panustaja.git"
+    "url": "https://github.com/mitselek/panustaja"
   },
-  "author": "Mihkel Putrinš",
-  "license": "MIT",
   "bugs": {
+    "email": "mihkel.putrinsh@gmail.com",
     "url": "https://github.com/mitselek/panustaja/issues"
   },
-  "homepage": "https://github.com/mitselek/panustaja#readme"
+  "engines": {
+    "node": "4.x"
+  },
+  "dependencies": {
+    "entulib": "^2.0.5",
+    "request": "^2.88.2"
+  }
 }
